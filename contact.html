@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact | Kemmer Solutions</title>
+<meta name="description" content="Get wholesale prices for Jermuk mineral water and Armenian beer from Kemmer Solutions in Yerevan.">
+<meta name="theme-color" content="#132231">
+<meta property="og:title" content="Contact | Kemmer Solutions">
+<meta property="og:description" content="Get wholesale prices for Jermuk mineral water and Armenian beer from Kemmer Solutions in Yerevan.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="contact" class="">
+<div class="curtain" aria-hidden="true"><span class="drop"></span></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Kemmer Solutions home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2c5 7 10 12.5 10 18a10 10 0 0 1-20 0C6 14.5 11 9 16 2z" fill="#8FD3DE"/><path d="M9 21c1.5 4 6 6 10 3.5" stroke="#F0A830" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><span>Kemmer<small>Solutions</small></span></a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="jermuk.html" data-nav="jermuk">Jermuk</a>
+      <a href="beer.html" data-nav="beer">Beer</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="contact.html?topic=pricelist">Get the price list</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head">
+  <canvas class="bubbles" data-density=".6"></canvas>
+  <div class="wrap"><h1>Let's talk drinks.</h1><p>Send us what you need and we'll reply with prices within one working day.</p></div>
+</section>
+<section class="section">
+  <div class="wrap contact-grid">
+    <form class="form" id="enquiry" novalidate>
+      <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required><span class="err" aria-live="polite"></span></div>
+      <div class="field"><label for="f-company">Business name</label><input id="f-company" name="company" autocomplete="organization"><span class="err"></span></div>
+      <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="err" aria-live="polite"></span></div>
+      <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"><span class="err"></span></div>
+      <div class="field full"><label for="f-type">Type of business</label>
+        <select id="f-type" name="type"><option>Restaurant or bar</option><option>Café</option><option>Shop or supermarket</option><option>Hotel</option><option>Event or catering</option><option>Other</option></select></div>
+      <fieldset class="field full"><legend>Interested in</legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="products" value="Jermuk"><span>Jermuk water</span></label>
+          <label class="chip"><input type="checkbox" name="products" value="Armenian beer"><span>Armenian beer</span></label>
+        </div></fieldset>
+      <div class="field full"><label for="f-msg">What do you need?</label><textarea id="f-msg" name="message" required placeholder="Products, rough monthly volumes, delivery address"></textarea><span class="err" aria-live="polite"></span></div>
+      <div class="form-actions">
+        <button class="btn btn-dark" type="submit">Send by email</button>
+        <button class="btn btn-ghost dark" type="button" id="sendWhatsapp">Send by WhatsApp</button>
+      </div>
+      <p class="form-note full" style="grid-column:1/-1">Your email or WhatsApp app opens with the enquiry filled in. Press send there and it reaches us.</p>
+      <div class="sent" role="status"><h3 style="font-size:1.4rem;margin-bottom:6px">Enquiry ready to send</h3><p style="margin:0">Your message is filled in. Press send in your email or WhatsApp app and we'll reply within one working day. Nothing opened? Write to <a data-href="email" data-config="email" href="#"></a>.</p></div>
+    </form>
+    <aside class="info-card">
+      <h2>Reach us directly</h2>
+      <ul class="facts">
+        <li><b>Phone</b><span><a data-href="phone" data-config="phone" href="#"></a></span></li>
+        <li><b>Email</b><span><a data-href="email" data-config="email" href="#"></a></span></li>
+        <li><b>Office</b><span data-config="address"></span></li>
+        <li><b>Hours</b><span data-config="hours"></span></li>
+      </ul>
+      <div class="quick">
+        <a class="btn btn-primary" data-href="whatsapp" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn btn-ghost" data-href="telegram" href="#" target="_blank" rel="noopener">Message on Telegram</a>
+        <a class="btn btn-ghost" data-href="phone" href="#">Call us</a>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2c5 7 10 12.5 10 18a10 10 0 0 1-20 0C6 14.5 11 9 16 2z" fill="#8FD3DE"/><path d="M9 21c1.5 4 6 6 10 3.5" stroke="#F0A830" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><span>Kemmer<small>Solutions</small></span></a>
+        <p>Beverage import and distribution in Armenia. Jermuk mineral water and Armenian beer, delivered to your door.</p>
+      </div>
+      <div><h4>Products</h4><ul><li><a href="jermuk.html">Jermuk water</a></li><li><a href="beer.html">Armenian beer</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html?topic=pricelist">Price list</a></li></ul></div>
+      <div><h4>Talk to us</h4><ul><li><a data-href="phone" data-config="phone" href="#"></a></li><li><a data-href="email" data-config="email" href="#"></a></li><li><a data-href="whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a></li><li><a data-href="telegram" href="#" target="_blank" rel="noopener">Telegram</a></li></ul></div>
+    </div>
+    <div class="foot-big" aria-hidden="true">Kemmer Solutions</div>
+    <div class="foot-bottom"><span>&copy; <span data-year></span> Kemmer Solutions. <span data-config="address"></span></span><span>Drink responsibly. Beer is sold to adults only.</span></div>
+  </div>
+</footer>
+<script src="assets/config.js"></script>
+<script src="assets/data.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>

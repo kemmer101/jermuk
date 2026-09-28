@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Armenian beer | Kemmer Solutions</title>
+<meta name="description" content="Wholesale Armenian beer in Armenia: Kilikia, Kotayk, Gyumri and Dargett craft.">
+<meta name="theme-color" content="#132231">
+<meta property="og:title" content="Armenian beer | Kemmer Solutions">
+<meta property="og:description" content="Wholesale Armenian beer in Armenia: Kilikia, Kotayk, Gyumri and Dargett craft.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="beer" class="">
+<div class="curtain" aria-hidden="true"><span class="drop"></span></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Kemmer Solutions home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2c5 7 10 12.5 10 18a10 10 0 0 1-20 0C6 14.5 11 9 16 2z" fill="#8FD3DE"/><path d="M9 21c1.5 4 6 6 10 3.5" stroke="#F0A830" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><span>Kemmer<small>Solutions</small></span></a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="jermuk.html" data-nav="jermuk">Jermuk</a>
+      <a href="beer.html" data-nav="beer">Beer</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="contact.html?topic=pricelist">Get the price list</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head malt">
+  <canvas class="bubbles" data-color="240,168,48" data-density=".8"></canvas>
+  <div class="wrap"><h1>Armenian beer</h1><p>The lagers your guests grew up with and Yerevan craft for the bar. Tap any bottle for details and prices.</p></div>
+</section>
+<section class="section" id="catalogue">
+  <div class="wrap">
+    <div class="beer-grid" id="beerGrid"></div>
+  </div>
+</section>
+<dialog class="modal" id="beerModal" aria-labelledby="mName">
+  <button class="modal-close" aria-label="Close">&times;</button>
+  <div class="modal-grid">
+    <div class="modal-art"></div>
+    <div class="modal-body">
+      <h2 id="mName" data-m="name"></h2>
+      <p data-m="desc"></p>
+      <ul class="facts"><li><b>Style</b><span data-m="style"></span></li><li><b>Brewed in</b><span data-m="origin"></span></li><li><b>Formats</b><span>Bottle, can and keg on request</span></li></ul>
+      <a class="btn btn-primary" data-m="cta" href="contact.html">Request prices</a>
+    </div>
+  </div>
+</dialog>
+<section class="cta">
+  <canvas class="bubbles" data-color="19,34,49" data-density=".6"></canvas>
+  <h2>Stock your fridge this week.</h2>
+  <p>Tell us what you pour and how much. We'll send prices within one working day and deliver across Yerevan.</p>
+  <div class="actions"><a class="btn btn-primary" href="contact.html?topic=pricelist">Get the price list</a><a class="btn btn-ghost" data-href="whatsapp" href="#" target="_blank" rel="noopener">Message us on WhatsApp</a></div>
+</section></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2c5 7 10 12.5 10 18a10 10 0 0 1-20 0C6 14.5 11 9 16 2z" fill="#8FD3DE"/><path d="M9 21c1.5 4 6 6 10 3.5" stroke="#F0A830" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg><span>Kemmer<small>Solutions</small></span></a>
+        <p>Beverage import and distribution in Armenia. Jermuk mineral water and Armenian beer, delivered to your door.</p>
+      </div>
+      <div><h4>Products</h4><ul><li><a href="jermuk.html">Jermuk water</a></li><li><a href="beer.html">Armenian beer</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html?topic=pricelist">Price list</a></li></ul></div>
+      <div><h4>Talk to us</h4><ul><li><a data-href="phone" data-config="phone" href="#"></a></li><li><a data-href="email" data-config="email" href="#"></a></li><li><a data-href="whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a></li><li><a data-href="telegram" href="#" target="_blank" rel="noopener">Telegram</a></li></ul></div>
+    </div>
+    <div class="foot-big" aria-hidden="true">Kemmer Solutions</div>
+    <div class="foot-bottom"><span>&copy; <span data-year></span> Kemmer Solutions. <span data-config="address"></span></span><span>Drink responsibly. Beer is sold to adults only.</span></div>
+  </div>
+</footer>
+<script src="assets/config.js"></script>
+<script src="assets/data.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
